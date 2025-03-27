@@ -10,6 +10,10 @@ if suffix_length > len(input_str):
     print("Result: False")
 elif suffix_length == 0: #     else compare end of string with suffix
     print("Result: True")
+else: # print true if they match, else false
+    if input_str[-suffix_length:] == suffix:
+        print("Result: True")
+    else:
+        print("Result: False")
 
 
-# print true if they match, else false
