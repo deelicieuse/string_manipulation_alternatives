@@ -10,5 +10,5 @@ if len(user_input) < desired_width:
     result = " " * left_padding + user_input + " " * right_padding
 else: # else keep string as is
     result = user_input
-
 # print result
+print(f"Result: {result}")
