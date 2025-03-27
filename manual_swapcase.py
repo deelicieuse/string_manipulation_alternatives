@@ -12,3 +12,4 @@ for character in user_input:
     else: #     else, keep string as is
         result += character
 # print result
+print(f"Result: {result}")
