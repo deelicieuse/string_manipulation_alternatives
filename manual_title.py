@@ -8,6 +8,8 @@ for word in words:
     if word:
         first_character = word[0]
         rest_of_word = word[1:]
-#     capitalize first character
-#     convert remaiing character to lower case
+        if "a" <= first_character <= "z": #     capitalize first character
+            first_character = chr(ord(first_character) - 32)
+
+#     convert remaining character to lower case
 # combine and print result
