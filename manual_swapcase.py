@@ -9,5 +9,6 @@ for character in user_input:
     elif "A" <= character <= "Z": #     if uppercase, convert to lowercase
         result += chr(ord(character) + 32)
 
-#     else, keep string as is
+    else: #     else, keep string as is
+        result += character
 # print result
