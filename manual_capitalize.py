@@ -15,3 +15,4 @@ if user_input:
 else: # else, set as empty string
     result = ""
 # print result
+print(f"Result: {result}")
