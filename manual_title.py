@@ -18,5 +18,5 @@ for word in words:
                 rest_of_word_lower += char
         # combine and print result
         result += first_character + rest_of_word_lower + " "
-    print(result[:-1])
+print(f"Result: {result[:-1]} ")
 
