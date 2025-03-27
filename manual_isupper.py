@@ -14,3 +14,7 @@ for character in user_input:
             break
 
 # if one letter is found and no lowercase, print true, else false
+if found_letter and is_all_upper:
+    print(f"Result: {True}")
+else:
+    print(f"Result: {False}")
