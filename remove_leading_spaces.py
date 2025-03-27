@@ -10,3 +10,4 @@ while index < len(user_input) and user_input[index] == " ":
 result = user_input[index:]
 
 # print result
+print(f"Result: {result}")
