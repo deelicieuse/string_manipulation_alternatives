@@ -10,6 +10,11 @@ for word in words:
         rest_of_word = word[1:]
         if "a" <= first_character <= "z": #     capitalize first character
             first_character = chr(ord(first_character) - 32)
+        rest_of_word_lower = ""  #     convert remaining character to lower case
+        for char in rest_of_word:
+            if "A" <= char <= "Z":  # if uppercase, convert to lowercase
+                rest_of_word_lower += chr(ord(char) + 32)
+            else: #else, keep as is
+                rest_of_word_lower += char
 
-#     convert remaining character to lower case
 # combine and print result
