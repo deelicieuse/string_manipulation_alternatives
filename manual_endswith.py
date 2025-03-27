@@ -4,6 +4,12 @@ suffix = input("Enter the suffix to check: ")
 
 # calculate length of suffix
 suffix_length = len(suffix)
+
 # if suffix is longer than string, print false
-#     else compare end of string with suffix
+if suffix_length > len(input_str):
+    print("Result: False")
+elif suffix_length == 0: #     else compare end of string with suffix
+    print("Result: True")
+
+
 # print true if they match, else false
