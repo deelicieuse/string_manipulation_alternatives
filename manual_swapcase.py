@@ -6,6 +6,8 @@ result = "" # initialize empty string
 for character in user_input:
     if "a" <= character <= "z": #     if lowercase, convert to uppercase
         result += chr(ord(character) - 32)
-#     if uppercase, convert to lowercase
+    elif "A" <= character <= "Z": #     if uppercase, convert to lowercase
+        result += chr(ord(character) + 32)
+
 #     else, keep string as is
 # print result
