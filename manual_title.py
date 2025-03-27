@@ -16,5 +16,7 @@ for word in words:
                 rest_of_word_lower += chr(ord(char) + 32)
             else: #else, keep as is
                 rest_of_word_lower += char
+        # combine and print result
+        result += first_character + rest_of_word_lower + " "
+    print(result[:-1])
 
-# combine and print result
