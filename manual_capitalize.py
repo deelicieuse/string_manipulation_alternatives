@@ -12,5 +12,6 @@ if user_input:
         if "A" <= char <= "Z":
             rest_of_string_lower += chr(ord(char) + 32)
     result = first_character + rest_of_string_lower
-# else, set as empty string
+else: # else, set as empty string
+    result = ""
 # print result
