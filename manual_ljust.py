@@ -8,3 +8,4 @@ if len(user_input) < desired_width:
 else: # else keep string
     result = user_input
 # print result
+print(f"Result: {result}")
