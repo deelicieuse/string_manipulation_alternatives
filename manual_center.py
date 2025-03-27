@@ -8,6 +8,7 @@ if len(user_input) < desired_width:
     left_padding = total_padding // 2 # and split string into left and right
     right_padding = total_padding - left_padding
     result = " " * left_padding + user_input + " " * right_padding
+else: # else keep string as is
+    result = user_input
 
-# else keep string as is
 # print result
