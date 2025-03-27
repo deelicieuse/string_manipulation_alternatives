@@ -5,6 +5,9 @@ desired_width = int(input("Enter width: "))
 # if length of string < width, calculater space
 if len(user_input) < desired_width:
     total_padding = desired_width - len(user_input)
-# and split string into left and right
+    left_padding = total_padding // 2 # and split string into left and right
+    right_padding = total_padding - left_padding
+    result = " " * left_padding + user_input + " " * right_padding
+
 # else keep string as is
 # print result
