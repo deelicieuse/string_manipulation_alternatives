@@ -8,3 +8,4 @@ if suffix_len <= len(user_input) and user_input[-suffix_len:] == suffix:
 else: # else, keep the string
     result = user_input
 # print result
+print(f"Result: {result}")
