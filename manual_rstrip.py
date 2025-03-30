@@ -7,5 +7,5 @@ while index >= 0 and user_input[index] == " ":
     index -= 1
 result = user_input[:index + 1] # slice the string from start and store in result
 
-
 # print result
+print(f"Result: {result}")
