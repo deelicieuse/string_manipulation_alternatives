@@ -5,4 +5,4 @@ if num_spaces > 0: # if spaces needed is positive, add spaces to string
     result = " " * num_spaces + user_input
 else:
     result = user_input
-# print result
+print(f"Result: {result}") # print result
