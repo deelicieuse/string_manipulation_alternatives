@@ -5,4 +5,4 @@ for char in user_input: # for each character,
         result += chr(ord(char) - 32)
     else: # else, add character
         result += char
-# print result
+print(f"Result: {result}") # print result
