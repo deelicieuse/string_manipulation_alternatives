@@ -1,5 +1,7 @@
 user_input = input("Enter a string: ") # prompt for string
 result = "" # initialize empty result
-# for each character, if lowercase, convert to uppercase w/ ASCII math
+for char in user_input: # for each character,
+    if "a" <= char <= "z": # if lowercase, convert to uppercase
+        result += chr(ord(char) - 32)
 # else, add character
 # print result
