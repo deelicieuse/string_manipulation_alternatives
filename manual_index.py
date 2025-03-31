@@ -7,4 +7,5 @@ for num in range(len(user_input) - sub_len + 1): # loop over each starting index
         print(f"Result: {num}")
         found = True
         break
-# if no match is found, print "Not found"
+if not found: # if no match is found, print "Not found"
+    print("Result: Not found")
